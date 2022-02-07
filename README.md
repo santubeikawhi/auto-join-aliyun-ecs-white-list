@@ -8,7 +8,7 @@
 # 在官方文档上做了一些小修改
 - 获取本地连接的IP
 - bat脚本（暂时没做shell）
---java -jar autojoinEcsWhiteList.jar regionId securityGroupId ipProtocol portRange accessKeyId accessKeySecret endpoint
+--java -jar autojoinEcsWhiteList.jar 参数列表[regionId securityGroupId ipProtocol portRange accessKeyId accessKeySecret endpoint]
 
 
 
