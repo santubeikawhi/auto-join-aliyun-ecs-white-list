@@ -13,6 +13,8 @@
 | endpoint        | String | 是   | 访问的域名                                                   | 例如：ecs.cn-hangzhou.aliyuncs.com |
 
 
+
+
 # 下面是官方文档
 # 增加一条入方向安全组规则文档示例
 
