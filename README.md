@@ -24,35 +24,6 @@
 mvn clean package
 java -jar target/sample-1.0.0-jar-with-dependencies.jar
 ```
-
-- TypeScript
-*Node 版本要求 10.x 及以上*
-```sh
-npm install --registry=https://registry.npm.taobao.org && tsc && node ./dist/client.js
-```
-
-- Go
-*Golang 版本要求 1.13 及以上*
-```sh
-GOPROXY=https://goproxy.cn,direct go run ./main
-```
-
-- PHP
-*PHP 版本要求 7.2 及以上*
-```sh
-composer install && php src/Sample.php
-```
-
-- Python
-*Python 版本要求 Python3*
-```sh
-python3 setup.py install && python ./alibabacloud_sample/sample.py
-```
-
-- C#
-*.NETCORE 版本要求 2.1及以上*
-```sh
-cd ./core && dotnet run
 ```
 
 ## 使用的 API
