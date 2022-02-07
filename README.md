@@ -2,6 +2,10 @@
 - 获取本地连接的IP
 - bat脚本（暂时没做shell）
 --java -jar autojoinEcsWhiteList.jar regionId securityGroupId ipProtocol portRange accessKeyId accessKeySecret endpoint
+
+
+
+
 | 名称            | 类型   | 必填 | 描述                                                         | 示例值及参考API                    |
 | --------------- | ------ | ---- | ------------------------------------------------------------ | ---------------------------------- |
 | RegionId        | String | 是   | 安全组所属地域ID。您可以调用[DescribeRegions](https://next.api.aliyun.com/document/Ecs/2014-05-26/DescribeRegions)查看最新的阿里云地域列表。 | 示例值：cn-hangzhou                |
