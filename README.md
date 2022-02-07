@@ -2,6 +2,20 @@
 - 获取本地连接的IP
 - bat脚本（暂时没做shell）
 --java -jar autojoinEcsWhiteList.jar regionId securityGroupId ipProtocol portRange accessKeyId accessKeySecret endpoint
+
+
+<figure><table>
+<thead>
+<tr><th>名称</th><th>类型</th><th>必填</th><th>描述</th><th>示例值及参考API</th></tr></thead>
+<tbody><tr><td>RegionId</td><td>String</td><td>是</td><td>安全组所属地域ID。您可以调用<a href='https://next.api.aliyun.com/document/Ecs/2014-05-26/DescribeRegions'>DescribeRegions</a>查看最新的阿里云地域列表。</td><td>示例值：cn-hangzhou</td></tr><tr><td>SecurityGroupId</td><td>String</td><td>是</td><td>目的端安全组ID。</td><td>&nbsp;</td></tr><tr><td>IpProtocol</td><td>String</td><td>是</td><td>传输层协议。取值大小写敏感。<br>取值范围：<br>tcp<br>udp<br>icmp<br>gre<br>all：支持所有协议<br>此处icmp协议仅支持IPv4地址。</td><td>示例值：tcp</td></tr><tr><td>PortRange</td><td>String</td><td>是</td><td>目的端安全组开放的传输层协议相关的端口范围。<br>取值范围：<br>TCP/UDP协议：取值范围为1~65535。使用斜线（/）隔开起始端口和终止端口。例如：1/200<br>ICMP协议：-1/-1<br>GRE协议：-1/-1<br>IpProtocol取值为all：-1/-1<br>了解端口的应用场景，请参见<a href='https://help.aliyun.com/document_detail/40724.html'>典型应用的常用端口</a>。</td><td>示例值: 9000/9000</td></tr><tr><td>accessKeyId</td><td>String</td><td>是</td><td>AccessKey ID和AccessKey Secret是您访问阿里云API的密钥</td><td>&nbsp;</td></tr><tr><td>accessKeySecret</td><td>String</td><td>是</td><td>AccessKey ID和AccessKey Secret是您访问阿里云API的密钥</td><td>&nbsp;</td></tr><tr><td>endpoint</td><td>String</td><td>是</td><td>访问的域名</td><td>例如：ecs.cn-hangzhou.aliyuncs.com</td></tr></tbody>
+</table></figure>
+<p>&nbsp;</p>
+
+
+
+
+
+
 | 名称            | 类型   | 必填 | 描述                                                         | 示例值及参考API                    |
 | --------------- | ------ | ---- | ------------------------------------------------------------ | ---------------------------------- |
 | RegionId        | String | 是   | 安全组所属地域ID。您可以调用[DescribeRegions](https://next.api.aliyun.com/document/Ecs/2014-05-26/DescribeRegions)查看最新的阿里云地域列表。 | 示例值：cn-hangzhou                |
