@@ -3,7 +3,7 @@
 set /a a=0
 
 :foreach
-java -jar \autojoinEcsWhiteList.jar regionId securityGroupId ipProtocol portRange accessKeyId accessKeySecret endpoint
+java -jar autojoinEcsWhiteList.jar regionId securityGroupId ipProtocol portRange description accessKeyId accessKeySecret endpoint
 
 echo %errorlevel%
 if %errorlevel% == 0 exit
